@@ -1,0 +1,57 @@
+body {
+  padding-top: 70px;  /* Move body of page below navbar. */
+}
+
+.navbar-inverse{
+  height: 71px;
+  background-color: black;
+  color: white;
+}
+.UIkit{
+  padding-top: 120px;
+  padding-bottom: 120px;
+  height: 670px;
+  text-align: center;
+  background-color: blue;
+  color: white;
+}
+.tagline{
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+.well{
+  padding: 5px 0px 0px 0px;
+  display: inline-block;
+  width: 190px;
+  text-align: center;
+  height: 50px;
+  background-color: white;
+  color: blue;
+}
+.Features{
+  text-align: center;
+  padding-top: 120px;
+  padding-bottom: 120px;
+  height: 630px;
+  background-color: lightblue;
+  color: white;
+  font-size: 48px;
+}
+.LESS{
+  font-size: 14px;
+}
+.GetInvolved{
+  height: 500px;
+  background-color: white;
+  color: black;
+}
+.OpenSource{
+  height: 500px;
+  background-color: lightblue;
+  color: white;
+}
+.Footer{
+  height: 300px;
+  background-color: black;
+  color: white;
+}
