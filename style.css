@@ -1,18 +1,19 @@
 body {
-  padding-top: 70px;  /* Move body of page below navbar. */
+  padding-top: 0px;  /* Move body of page below navbar. */
 }
 
 .navbar-inverse{
-  height: 71px;
+  height: 70px;
   background-color: black;
   color: white;
+  margin: 0px 0px 0px 0px;
 }
 .UIkit{
   padding-top: 120px;
   padding-bottom: 120px;
   height: 670px;
   text-align: center;
-  background-color: blue;
+  background-color: #2ba3d4;
   color: white;
 }
 .tagline{
@@ -26,25 +27,60 @@ body {
   text-align: center;
   height: 50px;
   background-color: white;
-  color: blue;
+  color: #2ba3d4;
+}
+
+.subnav li{
+  list-style-type: none;
+  text-align: center;
+  display: inline;
+  margin: 0px 25px 0px 0px;
+  color: white;
+}
+.subnav a{
+  color: white;
 }
 .Features{
   text-align: center;
   padding-top: 120px;
   padding-bottom: 120px;
   height: 630px;
-  background-color: lightblue;
+  background-color: #3dc0f1;
   color: white;
-  font-size: 48px;
+  margin: 0px 0px 0px 0px;
 }
-.LESS{
+.Features h1{
+  font-size: 52px;
+}
+.Features p{
   font-size: 14px;
+  padding-left: 0px;
+}
+.Features h2{
+  margin-top: 0px;
+  font-size: 24px;
+}
+.col-md-3{
+
 }
 .GetInvolved{
+  position: relative;
   height: 500px;
   background-color: white;
   color: black;
+  text-align: center;
+  padding-top: 120px;
+  margin: 0 0 0 0;
 }
+.col-md-4{
+  width: 353px;
+  height: 242px;
+  padding: 30px 30px 60px 30px;
+}
+.GetInvolved a{
+  color: black;
+}
+
 .OpenSource{
   height: 500px;
   background-color: lightblue;
